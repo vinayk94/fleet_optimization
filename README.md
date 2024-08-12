@@ -25,7 +25,8 @@ I used linear programming to model and solve this optimization problem. The key 
 
 2. **Objective Function**:
    Minimize total cost over the planning horizon:
-   $$ \text{Minimize } C_{total} = \sum_{y=2023}^{2038} (C_{buy}^y + C_{ins}^y + C_{mnt}^y + C_{fuel}^y - C_{sell}^y) $$
+
+$$ \text{Minimize } C_{total} = \sum_{y=2023}^{2038} (C_{buy}^y + C_{ins}^y + C_{mnt}^y + C_{fuel}^y - C_{sell}^y) $$
 
 3. **Key Constraints**:
    - Demand Satisfaction
@@ -80,5 +81,4 @@ Potential areas for improvement and exploration include:
 
 ## Acknowledgments
 
-This project was developed as part of the Shell.ai Hackathon for Sustainable and Affordable Energy 2024. We thank Shell for providing this challenging and relevant problem in the field of sustainability and optimization.
-
+This project was developed as part of the Shell.ai Hackathon for Sustainable and Affordable Energy 2024. 
